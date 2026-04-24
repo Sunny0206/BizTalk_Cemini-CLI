@@ -1,0 +1,59 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "STEP 1. 환경 준비",
+      "description": "가상환경 설정, 디렉토리 구조 생성, 환경 변수 및 보안 설정 등",
+      "status": "done",
+      "priority": "high",
+      "subtasks": [
+        { "id": "1.1", "title": "가상환경 설정", "status": "done" },
+        { "id": "1.2", "title": "디렉토리 구조 생성", "status": "done" },
+        { "id": "1.3", "title": "환경 변수 및 보안 설정", "status": "done" },
+        { "id": "1.4", "title": "의존성 패키지 설치", "status": "done" },
+        { "id": "1.5", "title": "Git 초기화 및 첫 커밋", "status": "done" }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "STEP 2. 백엔드 구현",
+      "description": "FastAPI를 이용한 API 서버 및 LangChain/Upstage 연동 로직 구현",
+      "status": "in-progress",
+      "priority": "high",
+      "subtasks": [
+        { "id": "2.1", "title": "데이터 모델 정의 (models/schemas.py)", "status": "done" },
+        { "id": "2.2", "title": "프롬프트 템플릿 작성 (prompts/templates.py)", "status": "done" },
+        { "id": "2.3", "title": "핵심 변환 로직 구현 (services/tone_converter.py)", "status": "done" },
+        { "id": "2.4", "title": "API 라우터 구현 (routers/convert.py)", "status": "done" },
+        { "id": "2.5", "title": "메인 앱 설정 (main.py)", "status": "done" },
+        { "id": "2.6", "title": "로컬 서버 실행 및 테스트 (Upstage API 연동 확인)", "status": "pending" }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "STEP 3. 프론트엔드 구현",
+      "description": "Vanilla JS를 이용한 사용자 인터페이스 및 API 연동",
+      "status": "done",
+      "priority": "medium",
+      "subtasks": [
+        { "id": "3.1", "title": "HTML 구조 설계 (index.html)", "status": "done" },
+        { "id": "3.2", "title": "CSS 스타일링 (css/style.css)", "status": "done" },
+        { "id": "3.3", "title": "JavaScript 기능 구현 (js/app.js)", "status": "done" },
+        { "id": "3.4", "title": "브라우저 테스트", "status": "done" }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "STEP 4. 배포",
+      "description": "Vercel 통합 배포 (Front + Back)",
+      "status": "pending",
+      "priority": "high",
+      "subtasks": [
+        { "id": "4.1", "title": "코드 정리 및 GitHub 푸시", "status": "pending" },
+        { "id": "4.2", "title": "Vercel 통합 배포 설정 (vercel.json) 작성", "status": "pending" },
+        { "id": "4.3", "title": "Vercel 프로젝트 생성 및 환경 변수 등록", "status": "pending" },
+        { "id": "4.4", "title": "최종 배포 확인 및 테스트", "status": "pending" }
+      ]
+    }
+  ]
+}

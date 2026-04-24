@@ -1,0 +1,18 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - heading "💼 업무 말투 변환기" [level=1] [ref=e4]
+    - paragraph [ref=e5]: 전달하고 싶은 내용을 수신자에 맞는 비즈니스 어조로 변환해드립니다.
+  - main [ref=e6]:
+    - generic [ref=e7]:
+      - heading "1. 받는 사람을 선택하세요" [level=3] [ref=e8]
+      - generic [ref=e9]:
+        - button "👔 상사/임원" [ref=e10] [cursor=pointer]
+        - button "🤝 타팀 동료" [ref=e11] [cursor=pointer]
+        - button "🌐 고객/외부" [ref=e12] [cursor=pointer]
+        - button "👥 팀 내 동료" [ref=e13] [cursor=pointer]
+    - generic [ref=e14]:
+      - heading "2. 내용을 입력하세요" [level=3] [ref=e15]
+      - 'textbox "예: 내일까지 보고서 제출 어려울 것 같음 (일상적인 말투로 편하게 입력하세요)" [ref=e16]'
+    - button "변환하기" [ref=e18] [cursor=pointer]
+  - contentinfo [ref=e19]:
+    - paragraph [ref=e20]: © 2024 업무 말투 변환기. All rights reserved.
